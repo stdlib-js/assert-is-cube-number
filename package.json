@@ -1,0 +1,43 @@
+{
+  "name": "@stdlib/assert-is-cube-number",
+  "version": "0.0.0",
+  "description": "Test if a value is a cube number.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-cube-number.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "number",
+    "numeric",
+    "perfect",
+    "cube",
+    "is",
+    "iscube",
+    "type",
+    "check",
+    "valid",
+    "validate",
+    "test",
+    "primitive",
+    "object"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
