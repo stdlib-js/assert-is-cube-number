@@ -50,13 +50,13 @@ A **cube number** is defined as an integer value which is the cube of an integer
 ## Usage
 
 ```javascript
-import isCubeNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@deno/mod.js';
+import isCubeNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@deno/mod.js';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@v0.1.0-deno/mod.js';
 ```
 
 #### isCubeNumber( value )
@@ -133,7 +133,7 @@ bool = isCubeNumber.isObject( new Number( 8.0 ) );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isCubeNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@deno/mod.js';
+import isCubeNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@v0.1.0-deno/mod.js';
 
 var bool = isCubeNumber( 8.0 );
 // returns true
