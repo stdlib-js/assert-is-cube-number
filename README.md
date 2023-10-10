@@ -52,6 +52,11 @@ A **cube number** is defined as an integer value which is the cube of an integer
 To use in Observable,
 
 ```javascript
+isCubeNumber = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-cube-number/tags). For example,
+
+```javascript
 isCubeNumber = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@v0.1.1-umd/browser.js' )
 ```
 
@@ -64,7 +69,7 @@ var isCubeNumber = require( 'path/to/vendor/umd/assert-is-cube-number/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -154,7 +159,7 @@ bool = isCubeNumber.isObject( new Number( 8.0 ) );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-cube-number@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
